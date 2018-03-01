@@ -2,7 +2,6 @@
 
 解决ViewPager 与 ImageView的滑动冲突
 
-
 #####  gradle 添加
 
 	allprojects {
@@ -24,4 +23,4 @@
   1. 怎么判断边界是否要出现
   2. 怎么告诉父容器ViewPager不去拦截滑动事件，ImageView并消费掉事件。
 
-  - 具体地看ScaleIamgeView 注释
+  - 具体地看ScaleIamgeView 注释  ScaleImageView  是在ZoomImageView 的基础上面扩展出来
