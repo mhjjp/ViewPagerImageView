@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     tools:context="jjp.mh.viewpagerwithimageview.MainActivity">
 
-    <android.support.v4.view.ViewPager
+    <jjp.mh.viewpagerwithimageview.view.UnMoveViewPager
         android:id="@+id/img__vp"
         android:layout_width="match_parent"
         android:layout_height="400dp">
 
-    </android.support.v4.view.ViewPager>
+    </jjp.mh.viewpagerwithimageview.view.UnMoveViewPager>
 
 </android.support.constraint.ConstraintLayout>
